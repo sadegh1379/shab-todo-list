@@ -1,6 +1,6 @@
 import { configureStore } from "@reduxjs/toolkit";
-import todoReducer from "./todoSlice";
-import LocalStorageMiddleware from "./localStorageMiddleware";
+import todoReducer from "./slices/todoSlice";
+import LocalStorageMiddleware from "./middlewares/localStorageMiddleware";
 
 const localStorageMiddlewareInstance = new LocalStorageMiddleware();
 

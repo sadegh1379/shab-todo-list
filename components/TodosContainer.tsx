@@ -7,7 +7,7 @@ import {
   deleteTodo,
   filterTodos,
   loadTodos,
-} from "../store/todoSlice";
+} from "../store/slices/todoSlice";
 import { RootState } from "../store/store";
 import TodoCard from "./TodoCard";
 

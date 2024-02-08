@@ -1,5 +1,5 @@
 import { Middleware } from '@reduxjs/toolkit';
-import { RootState } from './store';
+import { RootState } from '../store';
 
 // @ts-ignore
 class LocalStorageMiddleware implements Middleware<{}, RootState> {

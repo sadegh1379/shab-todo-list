@@ -45,7 +45,7 @@ const TodosContainer: React.FC = () => {
   }, [])
 
   return (
-    <div className="max-w-md mx-auto mt-8 p-6 bg-white rounded-md shadow-md">
+    <div className="max-w-md mx-auto p-6 bg-white rounded-md shadow-md">
       <div className="flex items-center space-x-2 mb-4">
         <input
           type="text"
